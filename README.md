@@ -12,8 +12,8 @@
 > [!IMPORTANT]
 > Include your names and `@` your GitHub usernames for each.
 
-1.
-2.
+1. 
+2. Jagatheesh Pugazhenthi Pulavan @Jaga-droid
 3.
 4.
 5.
@@ -42,7 +42,7 @@
 <!-- What questions you are trying to answer? -->
 
 ### Datasets
-
+1. SIMD(Scottish Index of Multiple Deprivation) for the years 2016 and 2020
 #### Dataset description
 <!-- Briefly describe your task and dataset -->
 
