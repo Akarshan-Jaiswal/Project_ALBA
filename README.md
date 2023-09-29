@@ -12,7 +12,7 @@
 > [!IMPORTANT]
 > Include your names and `@` your GitHub usernames for each.
 
-1. 
+1. Akarshan Jaiswal @Akarshan-Jaiswal
 2. Jagatheesh Pugazhenthi Pulavan @Jaga-droid
 3.
 4.
@@ -20,8 +20,9 @@
 
 ## Initial Project Proposal
 
-> [!NOTE]
-> Write up your project plan here.
+> The AIM of this project is to help in reducing the overall deprivation in Scotland
+> by analyzing the SIMD(Scottish Index of Multiple Deprivation) for Multiple years
+> and help in prevention/dispatch of emergency services in the most deprived regions.
 
 ### Research objectives
 
