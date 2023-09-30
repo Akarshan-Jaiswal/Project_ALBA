@@ -1,6 +1,6 @@
 # Week 2
 
 Tasks
-- [x] Read Dataset
-- [ ] Initial EDA
+- [x] Choosing the Dataset for the project.
+
 
