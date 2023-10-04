@@ -15,7 +15,7 @@
 1. Akarshan Jaiswal @Akarshan-Jaiswal
 2. Jagatheesh Pugazhenthi Pulavan @Jaga-droid
 3. Drashti Miteshkumar Shah @drashtishah3334
-4.
+4. Lahja Ndjalo @Omagano27
 5.
 
 ## Initial Project Proposal
