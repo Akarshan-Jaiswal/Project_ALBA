@@ -1,6 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,intellij+all,direnv,dotenv,virtualenv,microsoftoffice,data,images,video
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,intellij+all,direnv,dotenv,virtualenv,microsoftoffice,data,images,video
-
+*Zone.Identifier
 ### Data ###
 # *.csv
 *.dat
