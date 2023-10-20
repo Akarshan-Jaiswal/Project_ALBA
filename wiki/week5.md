@@ -2,10 +2,6 @@
 
 Tasks
 - [X] Compare and contrast various clustering algorithms.
-      - We have applied the following clustering algorithms
-          1. K-Means 
-          2. BIRCH
-          3. Affinity Propagation Clustering
-          4. DBSCAN Clustering
+      - Visualize the output of clustering
 
-- [ ] Delve into feature engineering and selection techniques.
+
