@@ -3,5 +3,6 @@
 Tasks
 
 - [ ] Further processing on the data
-   - Apply transformations on data, if necessary
-   
+   - Apply transformations on data, if necessary.
+   - Apply feature selection techniques.
+ 
