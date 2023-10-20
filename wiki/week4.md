@@ -16,4 +16,13 @@
 		- Combined both the dataframes.
 
 - [X] Initiated application of clustering algorithms on the dataset.
-	- Started working on various Clustering Algorithms: BIRCH Clustering, DBSCAN Clustering, OPTICS Clustering, Gaussian Clustering, Affinity Clustering, K-Means Clustering and KMedoid Clustering with sample data to understand how it works, later implementing it for actual dataset.
+	- Applied various Clustering Algorithms:
+	    1. K-Means 
+        2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering 
+        3. Affinity Propagation Clustering
+        4. DBSCAN Clustering
+		5. OPTICS Clustering
+		6. Gaussian Clustering
+		7. K-medoid Clustering
+    
+    on a test dataset to ensure everything works as intended before applying it on our dataset.
