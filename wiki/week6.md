@@ -7,4 +7,5 @@ Tasks
       - Davies-Bouldin Score
       - Calinski-Harabasz Score
             
+- [X] Discussed pairs of variables whose relationships can be explored.
       
