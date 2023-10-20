@@ -6,4 +6,9 @@ Tasks
       - Interpreting the output of the clustering algorithms.
       
 
+Issues
+ 
+- Affinity Propagation's execution time was too long even while being applied on one pair of variables. Optimized the code to remedy this.
+
+
 
