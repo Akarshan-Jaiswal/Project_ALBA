@@ -12,11 +12,11 @@ Tasks
 
 > Notebooks containg code for the following exploratory analysis.
 >
-> - Dtale:- [PrimaryEDA_Script]
+> - Dtale:- [PrimaryEDA_Script](notebooks\PrimaryEDA_Script.ipynb)
 >
-> - Sweetviz:- [SIMD_2020_EDA_Jagatheesh]
+> - Sweetviz:- [SIMD_2020_EDA_Jagatheesh](notebooks\SIMD_2020_EDA_Jagatheesh.ipynb)
 >
-> - Autoviz:- [EDA_DTale_AutoViz_Drashti]
+> - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks\EDA_DTale_AutoViz_Drashti.ipynb)
 
 - [x] Comparing common columns among SIMD data to ensure consistency.
 
