@@ -6,9 +6,9 @@ Tasks
 
 > Performed it on the following data files.
 >
-> - [SIMD_2016_Data]
+> - [SIMD_2016_Data](data/SIMD_2016_Data.xlsx)
 > 
-> - [SIMD_2020_Data]
+> - [SIMD_2020_Data](data/SIMD_2020_Data.csv)
 
 - [x] Comparing common columns among SIMD data to ensure consistency.
 
