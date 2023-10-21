@@ -19,6 +19,6 @@ Tasks
 > - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks\EDA_DTale_AutoViz_Drashti.ipynb)
 
 > Made a corelation Matrix for further investigation.
-> -[Correalation Matrix version 1](documentation\Correlation Matrix ver1.png)
+
 - [x] Comparing common columns among SIMD data to ensure consistency.
 
