@@ -10,5 +10,13 @@ Tasks
 > 
 > - [SIMD_2020_Data](data/SIMD_2020_Data.csv)
 
+> Notebooks containg code for the following exploratory analysis.
+>
+> - Dtale:- [PrimaryEDA_Script]
+>
+> - Sweetviz:- [SIMD_2020_EDA_Jagatheesh]
+>
+> - Autoviz:- [EDA_DTale_AutoViz_Drashti]
+
 - [x] Comparing common columns among SIMD data to ensure consistency.
 
