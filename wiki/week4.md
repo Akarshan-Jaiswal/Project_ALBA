@@ -21,7 +21,7 @@
     * [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](../notebooks/BIRCH_Clustering.ipynb)
     * [3. Affinity Propagation Clustering](../notebooks/Clustering_Scripts.ipynb)
     * [4. DBSCAN Clustering](../notebooks/DBSCAN_Clustering_Output.ipynb)
-	*	 5. OPTICS Clustering
+	* [5. OPTICS Clustering](../notebooks/OPTICS_Clustering.ipynb)
 	*	 6. Gaussian Clustering
 	*	 7. K-medoid Clustering
     
