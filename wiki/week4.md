@@ -25,4 +25,4 @@
 	* [6. Gaussian Clustering](../notebooks/Clustering_Scripts.ipynb)
 	* [7. K-medoid Clustering](../notebooks/KMediod_Cluster.ipynb)
     
-    on a test dataset to ensure everything works as intended before applying it on our dataset.
+    Applied the above clustering algorithms on a test dataset to ensure everything works as intended before applying it on our dataset.
