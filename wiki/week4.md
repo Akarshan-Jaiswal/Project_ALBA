@@ -18,7 +18,7 @@
 - [X] Initiated application of clustering algorithms on the dataset:
 	
 	* [1. K-Means](../notebooks/Kmeans_clustering.ipynb)
-    * [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](notebooks\BIRCH_Clustering.ipynb)
+    * [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](../notebooks/BIRCH_Clustering.ipynb)
     * [3. Affinity Propagation Clustering](notebooks\Clustering_Scripts.ipynb)
     * [4. DBSCAN Clustering](notebooks\DBSCAN_Clustering_Output.ipynb)
 	*	 5. OPTICS Clustering
