@@ -22,7 +22,7 @@
     * [3. Affinity Propagation Clustering](../notebooks/Clustering_Scripts.ipynb)
     * [4. DBSCAN Clustering](../notebooks/DBSCAN_Clustering_Output.ipynb)
 	* [5. OPTICS Clustering](../notebooks/OPTICS_Clustering.ipynb)
-	*	 6. Gaussian Clustering
-	*	 7. K-medoid Clustering
+	* [6. Gaussian Clustering](../notebooks/Clustering_Scripts.ipynb)
+	* 7. K-medoid Clustering
     
     on a test dataset to ensure everything works as intended before applying it on our dataset.
