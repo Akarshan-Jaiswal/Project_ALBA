@@ -17,7 +17,7 @@
 
 - [X] Initiated application of clustering algorithms on the dataset.
 	- Applied various Clustering Algorithms:
-	    1. K-Means 
+	    1. K-Means (notebooks\Kmeans_clustering.ipynb)
         2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering 
         3. Affinity Propagation Clustering
         4. DBSCAN Clustering
