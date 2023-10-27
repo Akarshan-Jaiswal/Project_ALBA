@@ -7,7 +7,7 @@ Tasks
 > Performed it on the following data files.
 >
 > - [SIMD_2016_Data](data/SIMD_2016_Data.xlsx)
-> 
+>
 > - [SIMD_2020_Data](data/SIMD_2020_Data.csv)
 
 > Notebooks containg code for the following exploratory analysis.
@@ -21,4 +21,9 @@ Tasks
 > Made a corelation Matrix for further investigation.
 
 - [x] Comparing common columns among SIMD data to ensure consistency.
+
+> - compared like columns between 2016 and 2020 datasets
+
+> - matched the like columns, although the field names differ
+
 
