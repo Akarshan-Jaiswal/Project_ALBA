@@ -8,7 +8,7 @@ Tasks
 
 - [x] Choosing most suitable dataset: selected the Scottish Index of Multiple Deprivation (SIMD) available datasets
 
-- >        -chose two datasets namely; SIMD 2016 and SIMD 2020
+- >        -chose two datasets, namely; SIMD 2016 and SIMD 2020
 
 - [x] Gathered all available data for SIMD 2016 and 2020
 
