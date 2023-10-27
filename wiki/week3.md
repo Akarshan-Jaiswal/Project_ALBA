@@ -24,7 +24,7 @@ Tasks
 
 > - compared like columns between 2016 and 2020 datasets
 
-> - matched the like columns, although the field names differ
+> - matched the like columns, noting differences in their field names
 
 > - list created of data columns that neither common nor shared between the two datasets
 
