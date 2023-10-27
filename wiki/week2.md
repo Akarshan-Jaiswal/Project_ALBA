@@ -2,9 +2,9 @@
 
 Tasks
 
-- [x] Discussing and searching the various types of datasets available
+- [x] Searching and discussing the various types of datasets available
 
-- [x] Assessing the suitability of various available datasets for the coursework objectives
+- [x] Assessing the suitability of the different available datasets for the coursework objectives
 
 - [x] Choosing most suitable dataset: selected the Scottish Index of Multiple Deprivation (SIMD) available datasets
 
