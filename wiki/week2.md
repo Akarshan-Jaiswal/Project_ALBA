@@ -18,3 +18,5 @@ Tasks
 - >       - [SIMD 2016 Indicator descriptions dataset](data/SIMD_2016_Indicator_descriptions.xlsx)
 - >       - [SIMD 2016 Contents and Notes dataset](data/SIMD_2016_Contents & Notes.xlsx)
 - >       - [SIMD 2020 Data dataset](data/SIMD_2020_Data.csv)
+
+- [x] Outlined work plan for week 3
