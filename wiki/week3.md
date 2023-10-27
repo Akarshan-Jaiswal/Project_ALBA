@@ -26,4 +26,6 @@ Tasks
 
 > - matched the like columns, although the field names differ
 
+> - list created of data columns that neither common nor shared between the two datasets
 
+> - this was done using respective the data description codes
