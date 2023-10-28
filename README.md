@@ -51,7 +51,7 @@
    - [SIMD_2016_Data](../data/SIMD_2016_Data.xlsx)
    - [SIMD_2020_Data](../data/SIMD_2020_Data.csv)
 2. Cleaned, preprocessed and final combined dataset that we used
-   - [combined_dataset](../data/combined_dataset.csv)
+   - [combined_dataset](../data/combined_dataset.csv)   
 #### Dataset description
 <!-- Briefly describe your task and dataset -->
    - The Scottish Index of Multiple Deprivation is a relative measure of deprivation across 6,976 small areas (called data zones).
