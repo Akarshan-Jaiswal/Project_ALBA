@@ -5,7 +5,11 @@ Tasks
 - [ ] Further processing on the data
    - Apply transformations on data, if necessary.
    - Apply feature selection techniques.
- 
- 
+
+
 
 - [ ] Applying decision tree algorithms for each subset with different target variables.
+
+ Next steps:
+ Discussed the approach of creating Decision Trees
+ Each team member will attempt a decision tree
