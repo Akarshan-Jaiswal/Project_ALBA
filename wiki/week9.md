@@ -6,10 +6,10 @@ Tasks
 
 
 References:
-
+ [X]
 
 Issues:
-
+ [X]
 
  Next steps:
  - [X] Meet on Tuesday 13/11/2023 to work on neural networking
