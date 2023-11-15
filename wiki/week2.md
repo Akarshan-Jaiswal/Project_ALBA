@@ -20,3 +20,13 @@ Tasks
 - >       - [SIMD 2020 Data dataset](../data/SIMD_2020_Data.csv)
 
 - [x] Outlined work plan for week 3
+
+Issues:
+ [X] Errors identified in dataset
+ [X] Blanks in the dataset
+ [X] There is numeric data in categorical columns
+ [X] Feature names do not match between comparison datasets
+ [X] Some columns are missing between the two datasets
+
+Next steps:
+ [X]
