@@ -1,8 +1,10 @@
 # Week 10
 
 Tasks
-- [X] Collectively working on the neural networking algorithm for the project.
+- [X] Discussing the neural networking algorithm
+- [X] Collecting additional information to train the model
 - [X] Brainstorm ideas on how to best train the neural network model
+
 
 
 References:
@@ -10,7 +12,9 @@ References:
 
 
 Issues:
- [X]
+- [X] The google cookies page pops up after running script to download files from online
+
 
  Next steps:
- [X]
+ [X] Allow the script to download the files without pop ups of cooke messages
+
