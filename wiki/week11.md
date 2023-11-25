@@ -8,7 +8,6 @@ Tasks
 - [X] Align code versions of python and tensorflow to common compatibility
 - [X] Update the wiki files
 - [X] Discuss and delegate roles and responsibilities for the viva
-- [X]
 
 References:
 
