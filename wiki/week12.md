@@ -9,7 +9,9 @@ References:
 - [X] https://github.com/dmml-heriot-watt/group-coursework-valhalla
 
 Issues:
-- [X] All issues have been resolved. The project is completed.
+- [X] All issues have been resolved.
 
 Next steps:
-- [X] There are no next steps. The project work is completed.
+- [X] There are no next steps.
+
+- [X] The project work is completed.
