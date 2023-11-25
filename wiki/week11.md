@@ -13,6 +13,7 @@ References:
 
 
 Issues:
+- [X] https://arxiv.org/pdf/1805.10030v2.pdf
 
 
 Next steps:
