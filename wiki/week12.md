@@ -1,15 +1,15 @@
 # Week 10
 
 Tasks
- [X] Submit the DMML Coursework Project on Monday, 27th November 2023
- [X] All team members present the project on Friday, 01st December 2023
+- [X] Submit the DMML Coursework Project on Monday, 27th November 2023
+- [X] All team members present the project on Friday, 01st December 2023
 
 
 References:
- [X] https://github.com/dmml-heriot-watt/group-coursework-valhalla
+- [X] https://github.com/dmml-heriot-watt/group-coursework-valhalla
 
 Issues:
- [X] All issues have been resolved. The project is completed.
+- [X] All issues have been resolved. The project is completed.
 
 Next steps:
- [X] There are no next steps. The project work is completed.
+- [X] There are no next steps. The project work is completed.

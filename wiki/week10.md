@@ -8,7 +8,7 @@ Tasks
 
 
 References:
- [X]
+
 
 
 Issues:
@@ -16,5 +16,5 @@ Issues:
 - [X] A variety of tensorflow and python versions used
 
  Next steps:
- [X] Allow the script to download the files without pop ups of cooke messages
+- [X] Allow the script to download the files without pop ups of cooke messages
 
