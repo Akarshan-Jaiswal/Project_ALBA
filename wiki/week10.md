@@ -13,7 +13,7 @@ References:
 
 Issues:
 - [X] The google cookies page pops up after running script to download files from online
-
+- [X] A variety of tensorflow and python versions used
 
  Next steps:
  [X] Allow the script to download the files without pop ups of cooke messages
