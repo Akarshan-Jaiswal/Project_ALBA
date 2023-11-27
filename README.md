@@ -55,7 +55,7 @@
    - [SIMD_2016_Data](data/SIMD_2016_Data.xlsx)
    - [SIMD_2020_Data](data/SIMD_2020_Data.csv)
 2. Cleaned, preprocessed and final combined dataset that we used
-   - [combined_dataset](data/processed_data/combined_dataset.csv)   
+   - [combined_dataset](data/processed_data/combined_dataset.csv)
 #### Dataset description
 <!-- Briefly describe your task and dataset -->
    - The Scottish Index of Multiple Deprivation is a relative measure of deprivation across 6,976 small areas (called data zones).
@@ -78,7 +78,7 @@
    - After Cleaning and Preprocessing the dataset the size of the [Combined Dataset](data/processed_data/combined_dataset.csv) is 8042.
 <!-- Train,validation,splits? -->
    - We did Validation split of 80:20 in CNN.
-   - Similarly we did a combination of [60:20:20] and [80:20] split of data in decision trees. 
+   - Similarly we did a combination of [60:20:20] and [80:20] split of data in decision trees.
 <!-- Summary statistics of your dataset -->
 |       |   Unnamed: 0 |   Total_population |   Working_age_population_revised |   Income_rate |   Income_count |   Employment_rate |   Employment_count |   ALCOHOL |      DRUG |       SMR |     EMERG |    Noquals |         NEET |   drive_petrol |    drive_GP |    drive_PO |   drive_primary |   drive_retail |   drive_secondary |      PT_GP |    PT_Post |   PT_retail |   overcrowded_count |   nocentralheat_count |   overcrowded_rate |   nocentralheat_rate |       year |
 |:------|-------------:|-------------------:|---------------------------------:|--------------:|---------------:|------------------:|-------------------:|----------:|----------:|----------:|----------:|-----------:|-------------:|---------------:|------------:|------------:|----------------:|---------------:|------------------:|-----------:|-----------:|------------:|--------------------:|----------------------:|-------------------:|---------------------:|-----------:|
@@ -104,7 +104,7 @@
         - Sweetviz:- [SIMD_2020_EDA_Jagatheesh](notebooks/SIMD_2020_EDA_Jagatheesh.ipynb)
 
         - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks/EDA_DTale_AutoViz_Drashti.ipynb)
-   
+
    - These areas are the worst affected areas
       - East Ayrshire
       - North Ayrshire
@@ -115,7 +115,7 @@
 ### Clustering
    - Notebook containing Implemented various clustering algorithms on the dataset:
       - Consolidated Clustering Notebook:- [Clustering_Notebook](notebooks/Clustering_Notebook.ipynb)
-   
+
    - Archived Implemented various clustering algorithms on the dataset:
       - [1. K-Means](notebooks/Kmeans_clustering.ipynb)
       - [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](notebooks/BIRCH_Clustering.ipynb)
@@ -145,7 +145,9 @@
       - [4. Noqualifications_DecisionTreeRegressor](notebooks/Decision_Treeln.ipynb)
 
 #### Experimental design
-<!-- Describe your experimental design and choices for the week. -->
+
+- Several regions have shown to have high consumption of alcohol and drug. To discover the factors that influence the extent of the substance abuse problem, we perform feature engineering and create a feature substance abuse that bins the values of alcohol and drug based on a threshold.
+
  We decided to consider the following features as our target variable: 
     1. Employment_count
     2. Substance_Abuse 
@@ -171,10 +173,21 @@ decision trees, used feature selection and pruning to improve the model.
 
 
 
-<!-- Tables showing the results of your experiments -->
+2. Substance_Abuse:
+|               | Precision | Recall | F1-Score | Support |
+|:--------------|----------:|-------:|---------:|--------:|
+| High          |       0.00|   0.00 |     0.00 |      21 |
+| Low           |       0.95|   1.00 |     0.97 |    2273 |
+| Moderate      |       0.41|   0.06 |     0.10 |     119 |
+| Accuracy      |           |        |     0.94 |    2413 |
+| Macro Avg     |       0.45|   0.35 |     0.36 |    2413 |
+| Weighted Avg  |       0.91|   0.94 |     0.92 |    2413 |
 
 #### Discussion
-<!-- A brief discussion on the results of your experiment -->
+2. Substance_Abuse:
+
+- The model was able to detect low substance_abuse but falters in doing so for high substance abuse. This could be due to the fact that the number of independent features
+selected was too little. Hence, the model could not capture instances of substance abuse where it is high.
 1. Employment_count:
 - First, a base model was built with all features. Then, Recursive feature elimination was used to trim the dataset to help optimize predictions. After checking that variance error was high which can lead to overfitting, pruning was performed to help reduce it. This led to a slight decrease in variance error and a reasonable increase in model accuracy. It was observed that these features contributed the most to predicting the Employment_count:
     - Data_Zone	
