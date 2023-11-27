@@ -49,7 +49,6 @@
 > What are the most prominent contributing factors to the overall Deprevation existing in Scotland?
 > Which regions are the most deprived according to the dataset?
 > Where in these regions are the most emergency/social services needed?
-<!-- What questions you are trying to answer? -->
 
 ### Datasets
 1. SIMD(Scottish Index of Multiple Deprivation) for the years 2016 and 2020
@@ -105,6 +104,13 @@
         - Sweetviz:- [SIMD_2020_EDA_Jagatheesh](notebooks/SIMD_2020_EDA_Jagatheesh.ipynb)
 
         - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks/EDA_DTale_AutoViz_Drashti.ipynb)
+   
+   - These areas are the worst affected areas
+      - East Ayrshire
+      - North Ayrshire
+      - Inverclyde
+      - Dundee City
+      - Fife
 
 ### Clustering
    - Notebook containing Implemented various clustering algorithms on the dataset:
