@@ -204,17 +204,29 @@ selected was too little. Hence, the model could not capture instances of substan
 
 
 ### Neural Networks
+   - Notebook containing Implementation of CNN:
+      - CNN Notebook:- [CNN_Notebook.ipynb](notebooks/CNN_Notebook.ipynb.ipynb)
 
 #### Experimental design
 <!-- Describe your experimental design and choices for the week. -->
+   - From the dataset we made custom classes by labeling images
+   - Our Model is not limited to a specific size of an image rather it can take any size of an image
+   - For Training we are using 50 Epochs, loss as 'sparse_categorical_crossentropy', optimizer as 'rmsprop'
+   - Testing set is 20% and Training set is 80%
 
 #### Results
 
 <!-- Tables showing the results of your experiments -->
+   - We didn't get a very high accuracy but it was decent enough.
 
 #### Discussion
 <!-- A brief discussion on the results of your experiment -->
-
+   - In our experiments, we found that using the ReLU activation function in our CNN yielded the best results, offering an optimal balance of non-linearity and computational efficiency. To combat overfitting, we implemented a 20% dropout rate, effectively regularizing our model to enhance its generalization on unseen data. This combination of ReLU and dropout proved crucial for improving our model's performance.
 
 ### Conclusion
 <!-- Final conclusions regarding your initial objectives -->
+   - The Experiments we did in developiong this custom-classified CNN model has given significant insights and outcomes. By labelling images to create custom classes, we noticed our model to  handle diverse range of image sizes, making it versatile and adaptable. 
+   - The training process, conducted over 50 epochs with 'sparse_categorical_crossentropy' as the loss function and 'rmsprop' as the optimizer, was aimed at enhancing model accuracy and efficiency. Our data allocation strategy, with an 80-20 split between training and testing sets, provided a balanced approach for both learning and validation.
+   Although the achieved accuracy was not exceptionally high, it was reasonably satisfactory, indicating a solid foundation for further refinement. 
+   - The implementation of the ReLU activation function and a 20% dropout rate was pivotal, striking a balance between non-linearity and effective regularization. This approach not only enhanced the model's computational efficiency but also its ability to generalize to new, unseen data, thereby improving overall performance.
+   - Moving forward, there is an opportunity to explore additional enhancements and optimizations. Tweaking the model architecture, experimenting with different hyperparameters, or augmenting the dataset could further improve accuracy and robustness. The journey in refining our CNN model continues, with these initial results laying a promising groundwork for future advancements.
