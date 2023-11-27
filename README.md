@@ -135,6 +135,14 @@
 <!-- A brief discussion on the results of your experiment -->
 
 ### Decision Trees
+- Notebook containing Implemented various decision tree models on the dataset:
+      - Consolidated Decision Tree Notebook:- [Decision_Tree_Notebook](notebooks/DecisionTree_Notebook.ipynb)
+
+- Archived Implemented various Decision Tree models on the dataset:
+      - [1. Employment_count](notebooks/Decision_Tree_Jaga.ipynb)
+      - [2. Substance_Abuse](notebooks/Decision_Tree_substanceAbuse.ipynb)
+      - [3. Income_rate](notebooks/Decision_Tree.ipynb)
+      - [4. Noqualifications_DecisionTreeRegressor](notebooks/Decision_Treeln.ipynb)
 
 #### Experimental design
 <!-- Describe your experimental design and choices for the week. -->
