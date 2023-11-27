@@ -164,6 +164,7 @@ decision trees, used feature selection and pruning to improve the model.
 #### Results
 
 1. Employment_count : 
+
 |               | Precision |   Recall | F1-Score |   Support |
 |:--------------|----------:|---------:|---------:|----------:|
 | 0             |   0.96524 | 0.976884 | 0.971029 |       995 |
@@ -175,7 +176,10 @@ decision trees, used feature selection and pruning to improve the model.
 
 
 
+
+
 2. Substance_Abuse:
+
 |               | Precision | Recall | F1-Score | Support |
 |:--------------|----------:|-------:|---------:|--------:|
 | High          |       0.00|   0.00 |     0.00 |      21 |
@@ -184,6 +188,7 @@ decision trees, used feature selection and pruning to improve the model.
 | Accuracy      |           |        |     0.94 |    2413 |
 | Macro Avg     |       0.45|   0.35 |     0.36 |    2413 |
 | Weighted Avg  |       0.91|   0.94 |     0.92 |    2413 |
+
 
 #### Discussion
 1. Employment_count:
