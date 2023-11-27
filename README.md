@@ -135,13 +135,45 @@
 <!-- A brief discussion on the results of your experiment -->
 
 ### Decision Trees
+- Notebook containing Implemented various decision tree models on the dataset:
+      - Consolidated Decision Tree Notebook:- [Decision_Tree_Notebook](notebooks/DecisionTree_Notebook.ipynb)
+
+- Archived Implemented various Decision Tree models on the dataset:
+      - [1. Employment_count](notebooks/Decision_Tree_Jaga.ipynb)
+      - [2. Substance_Abuse](notebooks/Decision_Tree_substanceAbuse.ipynb)
+      - [3. Income_rate](notebooks/Decision_Tree.ipynb)
+      - [4. Noqualifications_DecisionTreeRegressor](notebooks/Decision_Treeln.ipynb)
 
 #### Experimental design
 
+
+ We decided to consider the following features as our target variable: 
+    1. Employment_count
+    2. Substance_Abuse 
+1.Employment_count : 
+- Employment_count had positive correlations with a good number of features in our combined SIMD dataset. We wanted to find which features influenced the number of employed people across the regions in Scotland. 
+- We utilized binning to convert our Employment_count to a categorical variable and applied
+decision trees, used feature selection and pruning to improve the model.
+
+2.Substance_Abuse:
 - Several regions have shown to have high consumption of alcohol and drug. To discover the factors that influence the extent of the substance abuse problem, we perform feature engineering and create a feature substance abuse that bins the values of alcohol and drug based on a threshold.
 
 
+   
+
 #### Results
+
+1. Employment_count : 
+|               | Precision |   Recall | F1-Score |   Support |
+|:--------------|----------:|---------:|---------:|----------:|
+| 0             |   0.96524 | 0.976884 | 0.971029 |       995 |
+| 1             |   0.93153 | 0.885602 | 0.907988 |       507 |
+| 2             |   0.80672 | 0.905660 | 0.853333 |       106 |
+| Accuracy      |   0.94341 | 0.943408 | 0.943408 |   0.94341 |
+| Macro Avg     |   0.90117 | 0.922715 | 0.910783 |      1608 |
+| Weighted Avg  |   0.94416 | 0.943408 | 0.943394 |      1608 |
+
+
 
 2. Substance_Abuse:
 |               | Precision | Recall | F1-Score | Support |
@@ -154,10 +186,22 @@
 | Weighted Avg  |       0.91|   0.94 |     0.92 |    2413 |
 
 #### Discussion
+1. Employment_count:
+- First, a base model was built with all features. Then, Recursive feature elimination was used to trim the dataset to help optimize predictions. After checking that variance error was high which can lead to overfitting, pruning was performed to help reduce it. This led to a slight decrease in variance error and a reasonable increase in model accuracy. It was observed that these features contributed the most to predicting the Employment_count:
+    - Data_Zone	
+	 - nocentralheat_rate	
+	 - drive_secondary	
+	 - PT_GP	
+	 - crime_rate	
+	 - DRUG	
+	 - NEET	
+    - CIF	
+	 - ALCOHOL	
 2. Substance_Abuse:
 
 - The model was able to detect low substance_abuse but falters in doing so for high substance abuse. This could be due to the fact that the number of independent features
 selected was too little. Hence, the model could not capture instances of substance abuse where it is high.
+
 
 ### Neural Networks
 
