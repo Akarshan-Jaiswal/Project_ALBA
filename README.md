@@ -146,7 +146,6 @@
 
 #### Experimental design
 
-- Several regions have shown to have high consumption of alcohol and drug. To discover the factors that influence the extent of the substance abuse problem, we perform feature engineering and create a feature substance abuse that bins the values of alcohol and drug based on a threshold.
 
  We decided to consider the following features as our target variable: 
     1. Employment_count
@@ -155,6 +154,9 @@
 - Employment_count had positive correlations with a good number of features in our combined SIMD dataset. We wanted to find which features influenced the number of employed people across the regions in Scotland. 
 - We utilized binning to convert our Employment_count to a categorical variable and applied
 decision trees, used feature selection and pruning to improve the model.
+
+2.Substance_Abuse:
+- Several regions have shown to have high consumption of alcohol and drug. To discover the factors that influence the extent of the substance abuse problem, we perform feature engineering and create a feature substance abuse that bins the values of alcohol and drug based on a threshold.
 
 
    
@@ -184,10 +186,6 @@ decision trees, used feature selection and pruning to improve the model.
 | Weighted Avg  |       0.91|   0.94 |     0.92 |    2413 |
 
 #### Discussion
-2. Substance_Abuse:
-
-- The model was able to detect low substance_abuse but falters in doing so for high substance abuse. This could be due to the fact that the number of independent features
-selected was too little. Hence, the model could not capture instances of substance abuse where it is high.
 1. Employment_count:
 - First, a base model was built with all features. Then, Recursive feature elimination was used to trim the dataset to help optimize predictions. After checking that variance error was high which can lead to overfitting, pruning was performed to help reduce it. This led to a slight decrease in variance error and a reasonable increase in model accuracy. It was observed that these features contributed the most to predicting the Employment_count:
     - Data_Zone	
@@ -199,6 +197,10 @@ selected was too little. Hence, the model could not capture instances of substan
 	 - NEET	
     - CIF	
 	 - ALCOHOL	
+2. Substance_Abuse:
+
+- The model was able to detect low substance_abuse but falters in doing so for high substance abuse. This could be due to the fact that the number of independent features
+selected was too little. Hence, the model could not capture instances of substance abuse where it is high.
 
 
 ### Neural Networks
