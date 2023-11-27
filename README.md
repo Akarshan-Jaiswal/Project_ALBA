@@ -75,6 +75,7 @@
 
 #### Dataset exploration
 <!-- What is the size of the dataset? -->
+   - Consolidated DataPreprocessing Notebook:- [EDA_Notebook](notebooks/Data_Preprocessing_Notebook.ipynb)
    - After Cleaning and Preprocessing the dataset the size of the [Combined Dataset](data/processed_data/combined_dataset.csv) is 8042.
 <!-- Train,validation,splits? -->
    - We did Validation split of 80:20 in CNN.
@@ -99,11 +100,11 @@
 
    - Archived Notebooks containing code for the following exploratory analysis.
 
-        - Dtale:- [PrimaryEDA_Script](notebooks/PrimaryEDA_Script.ipynb)
+        - Dtale:- [PrimaryEDA_Script](notebooks/Archive/PrimaryEDA_Script.ipynb)
 
-        - Sweetviz:- [SIMD_2020_EDA_Jagatheesh](notebooks/SIMD_2020_EDA_Jagatheesh.ipynb)
+        - Sweetviz:- [SIMD_2020_EDA_Jagatheesh](notebooks/Archive/SIMD_2020_EDA_Jagatheesh.ipynb)
 
-        - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks/EDA_DTale_AutoViz_Drashti.ipynb)
+        - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks/Archive/EDA_DTale_AutoViz_Drashti.ipynb)
 
    - These areas are the worst affected areas
       - East Ayrshire
@@ -117,13 +118,13 @@
       - Consolidated Clustering Notebook:- [Clustering_Notebook](notebooks/Clustering_Notebook.ipynb)
 
    - Archived Implemented various clustering algorithms on the dataset:
-      - [1. K-Means](notebooks/Kmeans_clustering.ipynb)
-      - [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](notebooks/BIRCH_Clustering.ipynb)
-      - [3. Affinity Propagation Clustering](notebooks/Clustering_Scripts.ipynb)
-      - [4. DBSCAN Clustering](notebooks/DBSCAN_Clustering_Output.ipynb)
-	   - [5. OPTICS Clustering](notebooks/OPTICS_Clustering.ipynb)
-	   - [6. Gaussian Clustering](notebooks/Clustering_Scripts.ipynb)
-	   - [7. K-medoid Clustering](notebooks/KMediod_Cluster.ipynb)
+      - [1. K-Means](notebooks/Archive/Kmeans_clustering.ipynb)
+      - [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](notebooks/Archive/BIRCH_Clustering.ipynb)
+      - [3. Affinity Propagation Clustering](notebooks/Archive/Clustering_Scripts.ipynb)
+      - [4. DBSCAN Clustering](notebooks/Archive/DBSCAN_Clustering_Output.ipynb)
+	   - [5. OPTICS Clustering](notebooks/Archive/OPTICS_Clustering.ipynb)
+	   - [6. Gaussian Clustering](notebooks/Archive/Clustering_Scripts.ipynb)
+	   - [7. K-medoid Clustering](notebooks/Archive/KMediod_Cluster.ipynb)
 
 #### Experimental design
 <!-- Describe your experimental design and choices for the week. -->
@@ -139,10 +140,10 @@
       - Consolidated Decision Tree Notebook:- [Decision_Tree_Notebook](notebooks/DecisionTree_Notebook.ipynb)
 
 - Archived Implemented various Decision Tree models on the dataset:
-      - [1. Employment_count](notebooks/Decision_Tree_Jaga.ipynb)
-      - [2. Substance_Abuse](notebooks/Decision_Tree_substanceAbuse.ipynb)
-      - [3. Income_rate](notebooks/Decision_Tree.ipynb)
-      - [4. Noqualifications_DecisionTreeRegressor](notebooks/Decision_Treeln.ipynb)
+      - [1. Employment_count](notebooks/Archive/Decision_Tree_Jaga.ipynb)
+      - [2. Substance_Abuse](notebooks/Archive/Decision_Tree_substanceAbuse.ipynb)
+      - [3. Income_rate](notebooks/Archive/Decision_Tree.ipynb)
+      - [4. Noqualifications_DecisionTreeRegressor](notebooks/Archive/Decision_Treeln.ipynb)
 
 #### Experimental design
 
