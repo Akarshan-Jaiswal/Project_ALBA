@@ -54,6 +54,7 @@
 1. SIMD(Scottish Index of Multiple Deprivation) for the years 2016 and 2020
    - [SIMD_2016_Data](data/SIMD_2016_Data.xlsx)
    - [SIMD_2020_Data](data/SIMD_2020_Data.csv)
+   - [Image_dataset](data/processed_data/dataset.rar)
 2. Cleaned, preprocessed and final combined dataset that we used
    - [combined_dataset](data/processed_data/combined_dataset.csv)
 #### Dataset description
@@ -73,8 +74,14 @@
 #### Dataset examples
 <!-- Add a couple of example instances and the dataset format -->
 
+|    |   id | datazone   | intermedia                            | council_ar        |   total_popu |   working_ag |   simd2020v2 |   simd_2020v |   simd2020_1 |   simd2020_2 |   simd2020_3 |   simd2020_4 |   simd2020_e |   simd2020_h |   simd2020_5 |   simd2020_a |   simd2020_c |   simd2020_6 |   income_rat |   income_cou |   employment |   employme_1 |   cif |   alcohol |   drug |   smr |   depress |   lbwt |   emerg |   attendance |   attainment |   no_qualifi |   not_partic |   university |   crime_coun |   crime_rate |   overcrowde |   nocentralh |   overcrow_1 |   nocentra_1 |   drive_petr |   drive_gp |   drive_post |   drive_prim |   drive_reta |   drive_seco |   pt_gp |   pt_post |   pt_retail |   broadband |
+|---:|-----:|:-----------|:--------------------------------------|:------------------|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|------:|----------:|-------:|------:|----------:|-------:|--------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-------------:|-----------:|-------------:|-------------:|-------------:|-------------:|--------:|----------:|------------:|------------:|
+|  0 | 2207 | S01008712  | Bingham, Magdalene and The Christians | City of Edinburgh |         1124 |          615 |           90 |            2 |            1 |            1 |            1 |          167 |           48 |          299 |          102 |         4235 |          867 |          943 |         0.36 |          405 |         0.32 |          197 |   220 |       147 |    444 |   150 |      0.32 |   0.05 |     135 |         0.57 |         4.65 |          211 |         0.12 |         0.07 |           61 |          541 |          217 |           10 |         0.21 |         0.01 |      3.84844 |    1.80423 |      2.86484 |      3.85657 |      4.68393 |      4.30024 | 4.08637 |    7.0228 |     9.60091 |           0 |
+|  1 | 2198 | S01008703  | Craigmillar                           | City of Edinburgh |         1128 |          738 |          462 |            7 |            2 |            1 |            1 |          223 |          681 |          650 |          719 |         4096 |         1144 |         1008 |         0.34 |          386 |         0.2  |          144 |   210 |       126 |    209 |   176 |      0.21 |   0.05 |     138 |         0.69 |         5.12 |          201 |         0.09 |         0.07 |           53 |          467 |          185 |           20 |         0.19 |         0.02 |      4.71639 |    3.01207 |      5.06816 |      2.65762 |      2.26533 |      4.8821  | 5.70611 |    8.5625 |     5.17235 |           0 |
+
 #### Dataset exploration
 <!-- What is the size of the dataset? -->
+   - Consolidated DataPreprocessing Notebook:- [EDA_Notebook](notebooks/Data_Preprocessing_Notebook.ipynb)
    - After Cleaning and Preprocessing the dataset the size of the [Combined Dataset](data/processed_data/combined_dataset.csv) is 8042.
 <!-- Train,validation,splits? -->
    - We did Validation split of 80:20 in CNN.
@@ -99,11 +106,11 @@
 
    - Archived Notebooks containing code for the following exploratory analysis.
 
-        - Dtale:- [PrimaryEDA_Script](notebooks/PrimaryEDA_Script.ipynb)
+        - Dtale:- [PrimaryEDA_Script](notebooks/Archive/PrimaryEDA_Script.ipynb)
 
-        - Sweetviz:- [SIMD_2020_EDA_Jagatheesh](notebooks/SIMD_2020_EDA_Jagatheesh.ipynb)
+        - Sweetviz:- [SIMD_2020_EDA_Jagatheesh](notebooks/Archive/SIMD_2020_EDA_Jagatheesh.ipynb)
 
-        - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks/EDA_DTale_AutoViz_Drashti.ipynb)
+        - Autoviz:- [EDA_DTale_AutoViz_Drashti](notebooks/Archive/EDA_DTale_AutoViz_Drashti.ipynb)
 
    - These areas are the worst affected areas
       - East Ayrshire
@@ -117,13 +124,13 @@
       - Consolidated Clustering Notebook:- [Clustering_Notebook](notebooks/Clustering_Notebook.ipynb)
 
    - Archived Implemented various clustering algorithms on the dataset:
-      - [1. K-Means](notebooks/Kmeans_clustering.ipynb)
-      - [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](notebooks/BIRCH_Clustering.ipynb)
-      - [3. Affinity Propagation Clustering](notebooks/Clustering_Scripts.ipynb)
-      - [4. DBSCAN Clustering](notebooks/DBSCAN_Clustering_Output.ipynb)
-	   - [5. OPTICS Clustering](notebooks/OPTICS_Clustering.ipynb)
-	   - [6. Gaussian Clustering](notebooks/Clustering_Scripts.ipynb)
-	   - [7. K-medoid Clustering](notebooks/KMediod_Cluster.ipynb)
+      - [1. K-Means](notebooks/Archive/Kmeans_clustering.ipynb)
+      - [2. BIRCH(Balanced iterative reducing and clustering using hierarchies) Clustering](notebooks/Archive/BIRCH_Clustering.ipynb)
+      - [3. Affinity Propagation Clustering](notebooks/Archive/Clustering_Scripts.ipynb)
+      - [4. DBSCAN Clustering](notebooks/Archive/DBSCAN_Clustering_Output.ipynb)
+	   - [5. OPTICS Clustering](notebooks/Archive/OPTICS_Clustering.ipynb)
+	   - [6. Gaussian Clustering](notebooks/Archive/Clustering_Scripts.ipynb)
+	   - [7. K-medoid Clustering](notebooks/Archive/KMediod_Cluster.ipynb)
 
 #### Experimental design
 <!-- Describe your experimental design and choices for the week. -->
@@ -139,10 +146,10 @@
       - Consolidated Decision Tree Notebook:- [Decision_Tree_Notebook](notebooks/DecisionTree_Notebook.ipynb)
 
 - Archived Implemented various Decision Tree models on the dataset:
-      - [1. Employment_count](notebooks/Decision_Tree_Jaga.ipynb)
-      - [2. Substance_Abuse](notebooks/Decision_Tree_substanceAbuse.ipynb)
-      - [3. Income_rate](notebooks/Decision_Tree.ipynb)
-      - [4. Noqualifications_DecisionTreeRegressor](notebooks/Decision_Treeln.ipynb)
+      - [1. Employment_count](notebooks/Archive/Decision_Tree_Jaga.ipynb)
+      - [2. Substance_Abuse](notebooks/Archive/Decision_Tree_substanceAbuse.ipynb)
+      - [3. Income_rate](notebooks/Archive/Decision_Tree.ipynb)
+      - [4. Noqualifications_DecisionTreeRegressor](notebooks/Archive/Decision_Treeln.ipynb)
 
 #### Experimental design
 
