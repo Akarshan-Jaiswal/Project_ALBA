@@ -116,8 +116,7 @@
 - Employment_count had positive correlations with a good number of features in our combined SIMD dataset. We wanted to find which features influenced the number of employed people across the regions in Scotland. 
 - We utilized binning to convert our Employment_count to a categorical variable and applied
 decision trees, used feature selection and pruning to improve the model.
-2. Substance_Abuse:
-- Several regions have shown to have high consumption of alcohol and drug. To discover the factors that influence the extent of the substance abuse problem, we perform feature engineering and create a feature substance abuse that bins the values of alcohol and drug based on a threshold.
+
 
    
 
@@ -133,15 +132,6 @@ decision trees, used feature selection and pruning to improve the model.
 | Macro Avg     |   0.90117 | 0.922715 | 0.910783 |      1608 |
 | Weighted Avg  |   0.94416 | 0.943408 | 0.943394 |      1608 |
 
-2. Substance_Abuse: 
-|               | Precision | Recall | F1-Score | Support |
-|:--------------|----------:|-------:|---------:|--------:|
-| High          |       0.00|   0.00 |     0.00 |      21 |
-| Low           |       0.95|   1.00 |     0.97 |    2273 |
-| Moderate      |       0.41|   0.06 |     0.10 |     119 |
-| Accuracy      |           |        |     0.94 |    2413 |
-| Macro Avg     |       0.45|   0.35 |     0.36 |    2413 |
-| Weighted Avg  |       0.91|   0.94 |     0.92 |    2413 |
 
 
 <!-- Tables showing the results of your experiments -->
@@ -159,9 +149,7 @@ decision trees, used feature selection and pruning to improve the model.
 	 - NEET	
     - CIF	
 	 - ALCOHOL	
-2. Substance_Abuse:
-- The model was able to detect low substance_abuse but falters in doing so for high substance abuse. This could be due to the fact that the number of independent features 
-selected was too little. Hence, the model could not capture instances of substance abuse where it is high.
+
 
 ### Neural Networks
 
