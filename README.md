@@ -1,17 +1,6 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/58HShPQN)
 # Data Mining and Machine Learning Group Coursework
 
-> [!NOTE]
-> You should update and customize this README as the project progresses.
-
-> [!IMPORTANT]
-> See the COURSEWORK specification on CANVAS for details of the group coursework criteria/deliverables
-
 ## Group Members
-
-> [!IMPORTANT]
-> Include your names and `@` your GitHub usernames for each.
-
 1. Akarshan Jaiswal @Akarshan-Jaiswal
 2. Jagatheesh Pugazhenthi Pulavan @Jaga-droid
 3. Drashti Miteshkumar Shah @drashtishah3334
@@ -23,15 +12,7 @@
 > by analyzing the SIMD(Scottish Index of Multiple Deprivation) for Multiple years
 > and help in prevention/dispatch of emergency services in the most deprived regions.
 
-### Research objectives
-
-> [!NOTE]
-> What are the questions you are trying to answer? What are the goals of your project?
-
 ### Milestones
-
-> [!NOTE]
-> Create a bullet list of the key milestones for your project. Discuss these with your group. You may need to update these as the project progresses.
 
     Milestone 1(18th Sep-24th Sep): Project Topic, Direction, and Questions.
     Milestone 2(25th Sep-8th Oct): Data Analysis and Exploration.
