@@ -1,4 +1,4 @@
-# Data Mining and Machine Learning Group Coursework
+# Project ALBA (Data Mining and Machine Learning Activities)
 
 ## Group Members
 1. Akarshan Jaiswal @Akarshan-Jaiswal
